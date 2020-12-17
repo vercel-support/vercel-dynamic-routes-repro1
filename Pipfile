@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+dev = "flask run"
+open = "open http://localhost:5000"
+
+[requires]
+python_version = "3"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+pylint = "*"
+
+[dev-packages]
